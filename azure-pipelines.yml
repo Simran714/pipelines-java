@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: Quidditch
+  vmImage: 'ubutu-latest'
 
 steps:
 - task: Maven@3
