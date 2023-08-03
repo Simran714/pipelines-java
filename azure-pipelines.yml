@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: Quidditch
+  demands:
+    -agent.name -equals snitch
 
 steps:
 - task: Maven@3
